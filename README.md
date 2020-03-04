@@ -2,11 +2,12 @@
 Sign Language Recognition System.
 
 # Method: 
-The static sign language data for our project was in the form of images. We trained a Convolutional Neural Network (CNN)
-to identify the signs represented by each of these images. The dynamic sign language dataset we used was collected by a 
-LeapMotion Controller (LMC) and was in the form of (x, y, z) coordinates of each joint of each hand collected every few 
-milliseconds. We feature engineered this data to get useful relative motion data which was then trained on classical 
-classification models to identify the specific sign pertaining to each LMC input.
+Trained a Convolutional Neural Network (CNN) to identify the signs represented by each of these images. Feature engineered this data to get useful relative motion data which was then trained on classical classification models to identify the specific sign pertaining to each LMC input. 
+1.Trained two different CNN models(one for Digits and another one for Alphabets). 
+2. It recognize the signs and convert them into speech(text to speech), so in the end one can easily see the recognized text on the screen and can also hear the the text recognized . 
+
+# Steps:
+1. Run predict.py file to test the system.
 
 # Applications: 
 Our proposed system will help the deaf and hard-of-hearing communicate better with members of the community. 
@@ -17,7 +18,4 @@ context or while trying to communicate with their healthcare providers via teleh
 advancements would allow the hearing-impaired access to effective video communication.
 
 #Performance: 
-The proposed model for the still images is able to identify the static signs with an accuracy of 94.33%. Based on our 
-analysis of the dynamic signs, we realized the need to identify if the sign is a one-handed or two-handed sign first, 
-and then identify the sign itself. The final model we propose for the dynamic signs is capable of identifying the one-handed 
-signs with an accuracy of 88.9% and the two-handed signs with an accuracy of 79.0%.
+The proposed model for the still images is able to identify the static signs with an accuracy of 95% . 
