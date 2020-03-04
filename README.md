@@ -4,7 +4,8 @@ Sign Language Recognition System.
 # Method: 
 Trained a Convolutional Neural Network (CNN) to identify the signs represented by each of these images. Feature engineered this data to get useful relative motion data which was then trained on classical classification models to identify the specific sign pertaining to each LMC input. 
 
-1.Trained two different CNN models(one for Digits and another one for Alphabets). 
+1.Trained two different CNN models(one for Digits and another one for Alphabets).
+
 2. It recognize the signs and convert them into speech(text to speech), so in the end one can easily see the recognized text on the screen and can also hear the the text recognized . 
 
 # Steps:
